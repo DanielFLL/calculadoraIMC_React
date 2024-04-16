@@ -16,7 +16,7 @@ const Button = ({ id, text, action }) => {
 Button.propTypes = {
   id: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
-  action: PropTypes.string.isRequired,
+  action: PropTypes.func.isRequired,
 };
 
 export default Button;

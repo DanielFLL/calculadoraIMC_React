@@ -71,7 +71,7 @@ const ImcCalc = ({ calcImc }) => {
 };
 
 ImcCalc.propTypes = {
-  calcImc: PropTypes.string.isRequired,
+  calcImc: PropTypes.func.isRequired,
 };
 
 export default ImcCalc;
